@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/rounded_button_green_style_pressed"
+          android:state_pressed="true" />
+    <item android:drawable="@drawable/rounded_button_green_style_idle"
+          android:state_focused="true" />
+    <item android:drawable="@drawable/rounded_button_green_style_idle" />
+</selector>

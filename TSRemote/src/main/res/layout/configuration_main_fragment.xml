@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigurationMainFragment">
+
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ee1a1a1a"
+            android:layout_weight=".85"
+            android:id="@+id/configuration_remotes_list"
+            android:choiceMode="singleChoice"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".15">
+
+        <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:text="@string/add_remove_help_text"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="20dp"
+                android:lines="10"
+                android:layout_weight="1"
+                />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="430px"
+                android:layout_height="980px"
+                android:id="@+id/theme_preview"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/border"/>
+
+        <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_help_text"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="20dp"
+                android:lines="10"
+                android:layout_weight="1"
+                />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TSRemote</string>
+    <string name="volume">VOL</string>
+    <string name="channel">CH</string>
+    <string name="delete_remote_button_text">DEL</string>
+    <string name="config_message">Click to configure your remote(s)</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_device_name">Default Remote</string>
+    <string name="add_device_prompt">Add Remote...</string>
+    <string name="title_configuration">Configuration</string>
+    <string name="title_device_database">Device Database</string>
+    <string name="title_theme">Theme</string>
+    <string name="title_about">About</string>
+    <string name="default_theme_name">Default Theme</string>
+    <string name="coming_soon">Coming Soon...</string>
+    <string name="remote_name">Unique Name</string>
+    <string name="remote_type">Type (e.g. TV)</string>
+    <string name="remote_vendor">Device Vendor</string>
+    <string name="add_new_remote_title">Add new remote</string>
+    <string name="add_new_remote_message">Enter the remote details</string>
+    <string name="add_remote_ok_button">Add</string>
+    <string name="add_remote_cancel_button">Cancel</string>
+    <string name="edit_help_text">To edit a Key long press on it. Then you will be asked to provide the infrared signal. After successful completion the key should get a green tint. Unset keys have a red and set keys a green tint.</string>
+    <string name="add_remove_help_text">To add a remote, press the \"Add remote...\" button in the list of remotes. To deleta a remote, simply press its DEL button. The currently selected remote name is displayed in the upper left corner of the remote</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+    <string name="query_are_you_sure">Are you sure?</string>
+    <string name="learn_string_alert_countdown">Press the button on the remote in %1$d seconds</string>
+    <string name="learn_string_alert">Press the button on the remote once now and wait</string>
+</resources>
