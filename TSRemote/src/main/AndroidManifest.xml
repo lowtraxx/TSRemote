@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.toshsoft.tsremote"
-    android:sharedUserId="android.uid.system"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="0.4" >
 
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="16" />
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <supports-screens android:smallScreens="false"
                       android:normalScreens="false"

@@ -30,6 +30,9 @@ public class RemoteActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Try to enable IR
+        FileHelper.fixPermissionsForIr();
+
         // Initialize the Ir
         new Thread(new Runnable() {
             public void run() {

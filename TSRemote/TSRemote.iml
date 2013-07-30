@@ -70,8 +70,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="support-v4-13.0.0" level="project" />
     <orderEntry type="module" module-name="StandOut" exported="" />
-    <orderEntry type="library" exported="" name="libjni_sonyopenir" level="project" />
-    <orderEntry type="library" exported="" name="android-support-v4" level="project" />
+    <orderEntry type="library" exported="" name="libjni_sonyopenir_tsremote" level="project" />
   </component>
 </module>
 

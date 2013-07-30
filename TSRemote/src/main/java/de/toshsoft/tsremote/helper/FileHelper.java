@@ -1,6 +1,7 @@
 package de.toshsoft.tsremote.helper;
 
 import java.io.File;
+import java.io.IOException;
 
 /**
  *
@@ -50,5 +51,24 @@ public class FileHelper {
             }
         }
         return(path.delete());
+    }
+
+    public static boolean fixPermissionsForIr()
+    {
+        // IR Paths
+        String[] irEnable = { "su", "-c", "chown system:sdcard_rw /sys/devices/platform/ir_remote_control/enable /dev/ttyHSL2"};
+        String[] enablePermissions = { "su", "-c", "chmod 220 /sys/devices/platform/ir_remote_control/enable"};
+        String[] devicePermissions = { "su", "-c", "chmod 660 /dev/ttyHSL2"};
+        try {
+            // Try to enable Infrared Devices
+            Runtime.getRuntime().exec(irEnable);
+            Runtime.getRuntime().exec(enablePermissions);
+            Runtime.getRuntime().exec(devicePermissions);
+        } catch (IOException e) {
+            // Elevating failed
+            return false;
+        } finally {
+            return true;
+        }
     }
 }
