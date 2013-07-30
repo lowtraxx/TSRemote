@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.CountDownTimer;
+import android.os.Environment;
 import android.view.Gravity;
 import android.widget.TextView;
 
@@ -40,7 +41,7 @@ public class RemoteActivity extends Activity {
             }
         }).start();
 
-        FileHelper.setDeviceSavePath(getFilesDir() + "/remote_data/");
+        FileHelper.setDeviceSavePath(Environment.getExternalStorageDirectory().getPath() + "/TSRemote/remote_data/");
 
         DatabaseHelper dbHelper = new DatabaseHelper(getApplicationContext());
         try {
