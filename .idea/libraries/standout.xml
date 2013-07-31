@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="standout">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TSRemote/libs/standout.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

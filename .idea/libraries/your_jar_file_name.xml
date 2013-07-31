@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="your_jar_file_name">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TSRemote/libs/your_jar_file_name.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TSRemote/libs/your_jar_file_name.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TSRemote/libs/your_jar_file_name.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TSRemote/libs/your_jar_file_name.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

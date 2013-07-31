@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StandOut/StandOut.iml" filepath="$PROJECT_DIR$/StandOut/StandOut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TSRemote/TSRemote.iml" filepath="$PROJECT_DIR$/TSRemote/TSRemote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TSRemoteProject.iml" filepath="$PROJECT_DIR$/TSRemoteProject.iml" />
+    </modules>
+  </component>
+</project>
+
