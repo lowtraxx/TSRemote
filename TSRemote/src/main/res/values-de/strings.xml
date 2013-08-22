@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TSRemote</string>
+    <string name="volume">VOL</string>
+    <string name="channel">CH</string>
+    <string name="delete_remote_button_text">ENTF</string>
+    <string name="config_message">Klicken um die Fernbedienung(en) zu konfigurieren</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="default_device_name">Standard Fernbedienung</string>
+    <string name="add_device_prompt">Fernbedienung hinzufügen...</string>
+    <string name="title_configuration">Konfiguration</string>
+    <string name="title_device_database">Gerätedatenbank</string>
+    <string name="title_theme">Theme</string>
+    <string name="title_about">Über TSRemote</string>
+    <string name="default_theme_name">Standard Theme</string>
+    <string name="coming_soon">In Kürze...</string>
+    <string name="remote_name">Eindeutiger Name</string>
+    <string name="remote_type">Typ (z.B. TV)</string>
+    <string name="remote_vendor">Gerätehersteller</string>
+    <string name="add_new_remote_title">Neue Fenbedienung hinzufügen</string>
+    <string name="add_new_remote_message">Fernbedienungsdetails eingeben</string>
+    <string name="add_remote_ok_button">Hinzufügen</string>
+    <string name="add_remote_cancel_button">Abbrechen</string>
+    <string name="edit_help_text">Um eine Taste der Fernbedienung zu belegen, diese lang gedrückt halten. Danach die entsprechende Taste auf der Fernbedienung drücken. Nach erfolgtem Lernvorgang sollte die Taste einen grünen Schimmer bekommen. Ungesetzte Tasten haben einen roten, gesetzte einen grünen Schimmer.</string>
+    <string name="add_remove_help_text">Um eine Fernbedienung hinzuzufügen drücken sie bitte den \"Fernbedienung hinzufügen...\" Button in der Fernbedienungsliste. Um eine Fernbedienung zu löschen drücken sie einfach deren ENTF Button. Der Name der momentan selektierten Fernbedienung wird in deren linken oberen Rand angezeigt</string>
+    <string name="answer_yes">Ja</string>
+    <string name="answer_no">Nein</string>
+    <string name="query_are_you_sure">Sind sie sicher?</string>
+    <string name="learn_string_alert_countdown">Die Taste auf der Fernbedienung in %1$d sekunden drücken</string>
+    <string name="learn_string_alert">Jetzt die Taste auf der Fernbedienung einmal drücken</string>
+</resources>
