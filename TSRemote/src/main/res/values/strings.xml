@@ -23,7 +23,7 @@
     <string name="add_remote_ok_button">Add</string>
     <string name="add_remote_cancel_button">Cancel</string>
     <string name="edit_help_text">To edit a Key long press on it. Then you will be asked to provide the infrared signal. After successful completion the key should get a green tint. Unset keys have a red and set keys a green tint.</string>
-    <string name="add_remove_help_text">To add a remote, press the \"Add remote...\" button in the list of remotes. To deleta a remote, simply press its DEL button. The currently selected remote name is displayed in the upper left corner of the remote</string>
+    <string name="add_remove_help_text">To add a remote, press the \"Add remote...\" button in the list of remotes. To delete a remote, simply press its DEL button. The currently selected remote name is displayed in the upper left corner of the remote.</string>
     <string name="answer_yes">Yes</string>
     <string name="answer_no">No</string>
     <string name="query_are_you_sure">Are you sure?</string>
