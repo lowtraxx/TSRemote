@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Пульт ДУ</string>
+    <string name="volume">VOL</string>
+    <string name="channel">CH</string>
+    <string name="delete_remote_button_text">Удал.</string>
+    <string name="config_message">Коснитесь для настройки пульта.</string>
+    <string name="action_settings">Настройки</string>
+    <string name="default_device_name">Пульт по умолчанию</string>
+    <string name="add_device_prompt">Добавить…</string>
+    <string name="title_configuration">Конфигурация</string>
+    <string name="title_device_database">База устройств</string>
+    <string name="title_theme">Тема</string>
+    <string name="title_about">О программе</string>
+    <string name="default_theme_name">Стандартная тема</string>
+    <string name="coming_soon">Скоро будет…</string>
+    <string name="remote_name">Название</string>
+    <string name="remote_type">Тип (напр., ТВ)</string>
+    <string name="remote_vendor">Производитель</string>
+    <string name="add_new_remote_title">Добавление пульта</string>
+    <string name="add_new_remote_message">Укажите параметры пульта</string>
+    <string name="add_remote_ok_button">Добавить</string>
+    <string name="add_remote_cancel_button">Отмена</string>
+    <string name="edit_help_text">Коснитесь и удерживайте кнопку для её изменения. После этого нужно будет передать инфракрасный сигнал с исходного пульта. При успешном завершении кнопка будет окрашена зелёным цветом. Ненастроенные кнопки отмечены красным цветом, настроенные — зелёным.</string>
+    <string name="add_remove_help_text">Для добавления пульта выберите «Добавить…» в списке пультов. Чтобы удалить пульт, нажмите на нём кнопку «Удал.». Название используемого в данный момент пульта отображается в его левом верхнем углу.</string>
+    <string name="answer_yes">Да</string>
+    <string name="answer_no">Нет</string>
+    <string name="query_are_you_sure">Вы уверены?</string>
+    <string name="learn_string_alert_countdown">Через %1$d сек. нужно будет нажать кнопку на исходном пульте.</string>
+    <string name="learn_string_alert">Нажмите и удерживайте кнопку на исходном пульте ДУ.</string>
+</resources>
